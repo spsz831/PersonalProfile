@@ -15,15 +15,15 @@ body {
 .container {
     max-width: 800px;
     margin: 0 auto;
-    padding: 40px 20px;
+    padding: clamp(20px, 5vw, 40px) clamp(16px, 4vw, 20px);
 }
 
 /* 个人信息区域 */
 .hero-section {
     text-align: center;
-    margin-bottom: 60px;
+    margin-bottom: clamp(40px, 8vw, 60px);
     background: white;
-    padding: 60px 40px;
+    padding: clamp(30px, 8vw, 60px) clamp(20px, 5vw, 40px);
     border-radius: 16px;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
 }
@@ -41,21 +41,21 @@ body {
 }
 
 .name {
-    font-size: 2.5rem;
+    font-size: clamp(1.8rem, 4vw, 2.5rem);
     font-weight: 700;
     margin-bottom: 8px;
     color: #1a1a1a;
 }
 
 .subtitle {
-    font-size: 1.1rem;
+    font-size: clamp(0.95rem, 2.5vw, 1.1rem);
     color: #666;
     margin-bottom: 8px;
     font-weight: 500;
 }
 
 .description {
-    font-size: 1rem;
+    font-size: clamp(0.9rem, 2vw, 1rem);
     color: #888;
     max-width: 500px;
     margin: 0 auto;
@@ -64,9 +64,9 @@ body {
 /* 章节标题 */
 .section-title {
     text-align: center;
-    font-size: 1.8rem;
+    font-size: clamp(1.4rem, 3vw, 1.8rem);
     font-weight: 600;
-    margin-bottom: 40px;
+    margin-bottom: clamp(24px, 5vw, 40px);
     color: #1a1a1a;
 }
 
@@ -438,8 +438,8 @@ body {
 }
 
 .contact-icon {
-    width: 80px;
-    height: 80px;
+    width: clamp(60px, 10vw, 80px);
+    height: clamp(60px, 10vw, 80px);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -447,17 +447,15 @@ body {
     border-radius: 12px;
 }
 
-.gmail-icon {
-    background: transparent;
-}
-
-.wechat-icon {
-    background: transparent;
-}
-
-.contact-icon img {
-    width: 48px;
-    height: 48px;
+.work-icon {
+    width: clamp(60px, 10vw, 80px);
+    height: clamp(60px, 10vw, 80px);
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 16px;
+    font-size: clamp(1.5rem, 3vw, 2rem);
 }
 
 .contact-card h3 {
@@ -527,25 +525,68 @@ body {
 }
 
 /* 响应式设计 */
-@media (max-width: 768px) {
-    .container {
+@media (max-width: 320px) {
+    .hero-section {
+        padding: 24px 16px;
+    }
+
+    .skill-card,
+    .social-card,
+    .work-card,
+    .contact-card {
+        padding: 16px 12px;
+    }
+
+    .modal-content {
+        width: 95%;
+        height: auto;
+        max-width: 280px;
+        aspect-ratio: 3/4;
+    }
+
+    .qr-code {
+        width: 180px;
+        height: 180px;
+    }
+
+    .contact-icon {
+        width: 60px;
+        height: 60px;
+    }
+
+    .work-icon {
+        width: 60px;
+        height: 60px;
+    }
+}
+
+@media (max-width: 480px) {
+    .skill-card,
+    .social-card,
+    .work-card,
+    .contact-card {
         padding: 20px 16px;
     }
 
-    .hero-section {
-        padding: 40px 24px;
-    }
-
-    .name {
-        font-size: 2rem;
+    .section-title {
+        font-size: 1.4rem;
     }
 
     .cards-grid {
         grid-template-columns: 1fr;
+        gap: 16px;
     }
 
-    .products-grid {
+    .works-grid,
+    .contact-grid {
         grid-template-columns: 1fr;
+        gap: 16px;
+    }
+}
+@media (max-width: 768px) {
+    .cards-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
     }
 
     .blog-item {
@@ -561,28 +602,28 @@ body {
     .modal-content {
         width: 85%;
         height: auto;
-        max-width: 450px;
+        max-width: 350px;
         aspect-ratio: 3/4;
     }
 
     .qr-code {
-        width: 220px;
-        height: 220px;
+        width: 200px;
+        height: 200px;
+    }
+
+    .works-grid,
+    .contact-grid {
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 20px;
     }
 }
 
-@media (max-width: 480px) {
-    .skill-card,
-    .social-card,
-    .work-card,
-    .product-card,
-    .contact-card {
-        padding: 24px 20px;
-    }
+.gmail-icon {
+    background: transparent;
+}
 
-    .section-title {
-        font-size: 1.5rem;
-    }
+.wechat-icon {
+    background: transparent;
 }
 
 /* 模态框样式 */
