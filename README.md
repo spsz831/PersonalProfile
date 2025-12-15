@@ -4,7 +4,7 @@
 
 ## 在线预览
 
-https://dapper-kitten-222be8.netlify.app/
+https://yangzhenai.de5.net/
 
 ## 主要功能
 
@@ -37,7 +37,7 @@ npx serve
 
 ## 部署
 
-项目已部署在Netlify，可以直接推送到GitHub后自动部署。
+项目已部署在Cloudflare Pages，推送到GitHub后自动部署。
 
 ## 项目结构
 
