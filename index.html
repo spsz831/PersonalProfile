@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>杨振·AI深度学习爱好者</title>
 
+    <!-- DNS预解析和预连接 - 优化外部资源加载 -->
+    <link rel="dns-prefetch" href="https://www.googletagmanager.com">
+    <link rel="preconnect" href="https://www.googletagmanager.com">
+
     <!-- Google Analytics 4 (GA4) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-SQ8LXQMB73"></script>
     <script>
@@ -56,10 +60,15 @@
     <meta property="twitter:description" content="7年新媒体运营经验，专注于AI内容、数字化营销的内容创作者">
     <meta property="twitter:image" content="https://yangzhenai.de5.net/images/avatar.png">
 
-    <!-- 样式表 -->
+    <!-- 预加载关键资源 - 优化LCP -->
+    <link rel="preload" href="style.css" as="style">
+    <link rel="preload" href="images/avatar.webp" as="image" type="image/webp">
     <link rel="stylesheet" href="style.css">
-    <!-- Font Awesome图标库 -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+
+    <!-- Font Awesome图标库 - 异步加载非关键资源 -->
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" media="print" onload="this.media='all'">
+    <noscript><link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet"></noscript>
 
     <!-- 结构化数据 (JSON-LD) - 帮助搜索引擎理解页面内容 -->
     <script type="application/ld+json">
