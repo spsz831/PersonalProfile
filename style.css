@@ -3,8 +3,8 @@
     --bg-primary: #f5f7fa;
     --bg-secondary: #ffffff;
     --text-primary: #333;
-    --text-secondary: #666;
-    --text-tertiary: #888;
+    --text-secondary: #555;
+    --text-tertiary: #666;
     --border-color: #f0f0f0;
     --shadow: rgba(0, 0, 0, 0.08);
     --shadow-hover: rgba(0, 0, 0, 0.12);
@@ -16,8 +16,8 @@
     --bg-primary: #1a1a1a;
     --bg-secondary: #2d2d2d;
     --text-primary: #e0e0e0;
-    --text-secondary: #b0b0b0;
-    --text-tertiary: #808080;
+    --text-secondary: #b8b8b8;
+    --text-tertiary: #999999;
     --border-color: #404040;
     --shadow: rgba(0, 0, 0, 0.3);
     --shadow-hover: rgba(0, 0, 0, 0.4);
