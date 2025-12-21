@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <!-- 首页 -->
     <url>
-        <loc>https://yangzhenai.de5.net/</loc>
+        <loc>https://950831.xyz/</loc>
         <lastmod>2025-12-15</lastmod>
         <changefreq>weekly</changefreq>
         <priority>1.0</priority>
@@ -10,28 +10,28 @@
 
     <!-- 博客文章 -->
     <url>
-        <loc>https://yangzhenai.de5.net/posts/shopping</loc>
+        <loc>https://yangzhenai.top/posts/shopping</loc>
         <lastmod>2025-12-13</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
 
     <url>
-        <loc>https://yangzhenai.de5.net/posts/09ogp</loc>
+        <loc>https://yangzhenai.top/posts/09ogp</loc>
         <lastmod>2025-12-09</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
 
     <url>
-        <loc>https://yangzhenai.de5.net/posts/1206claude</loc>
+        <loc>https://yangzhenai.top/posts/1206claude</loc>
         <lastmod>2025-12-06</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
 
     <url>
-        <loc>https://yangzhenai.de5.net/posts/1202web</loc>
+        <loc>https://yangzhenai.top/posts/1202web</loc>
         <lastmod>2025-12-02</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>

@@ -1,4 +1,4 @@
-# robots.txt for yangzhenai.de5.net
+# robots.txt for 950831.xyz
 
 # 允许所有搜索引擎抓取
 User-agent: *
@@ -9,7 +9,7 @@ Allow: /
 # Disallow: /private/
 
 # Sitemap位置
-Sitemap: https://yangzhenai.de5.net/sitemap.xml
+Sitemap: https://950831.xyz/sitemap.xml
 
 # 常见搜索引擎
 User-agent: Googlebot
