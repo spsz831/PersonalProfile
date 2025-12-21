@@ -3,37 +3,8 @@
     <!-- 首页 -->
     <url>
         <loc>https://950831.xyz/</loc>
-        <lastmod>2025-12-15</lastmod>
+        <lastmod>2025-12-21</lastmod>
         <changefreq>weekly</changefreq>
         <priority>1.0</priority>
-    </url>
-
-    <!-- 博客文章 -->
-    <url>
-        <loc>https://yangzhenai.top/posts/shopping</loc>
-        <lastmod>2025-12-13</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-
-    <url>
-        <loc>https://yangzhenai.top/posts/09ogp</loc>
-        <lastmod>2025-12-09</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-
-    <url>
-        <loc>https://yangzhenai.top/posts/1206claude</loc>
-        <lastmod>2025-12-06</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-
-    <url>
-        <loc>https://yangzhenai.top/posts/1202web</loc>
-        <lastmod>2025-12-02</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
     </url>
 </urlset>
